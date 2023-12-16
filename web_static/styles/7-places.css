@@ -1,10 +1,13 @@
 .places {
     clear: both;
     font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 article {
-    /* display: flex; */
     display: inline-block;
     width: 390px;
     text-align: center;
@@ -16,14 +19,11 @@ article {
     box-sizing: border-box;
 }
 
-.contain_articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-h2 {
-    font-size: 30px;
-    margin: auto;
+h1 {
+    float: left;
+	text-align: left;
+	width: 95%;
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 5px;
 }
