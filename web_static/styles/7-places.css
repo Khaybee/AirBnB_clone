@@ -1,0 +1,29 @@
+.places {
+    clear: both;
+    font-size: 30px;
+}
+
+article {
+    /* display: flex; */
+    display: inline-block;
+    width: 390px;
+    text-align: center;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+
+.contain_articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin: auto;
+}
